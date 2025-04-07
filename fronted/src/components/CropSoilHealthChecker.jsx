@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import * as tf from "@tensorflow/tfjs";
 import Navbar from "./navbar";
 import Footer from "./footer";
-import "./CropSoilHealthChecker.css";
+import "./cropSoilHealthChecker.css";
 
 const SoilHealthChecker = () => {
   const [model, setModel] = useState(null);
