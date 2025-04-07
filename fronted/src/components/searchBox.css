@@ -1,0 +1,27 @@
+/* .search-box{
+    text-align: center;
+} */
+
+
+.search-box {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.search-box form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .search-box form {
+        flex-direction: column;
+    }
+    
+    .search-box form button {
+        margin-top: 10px;
+    }
+}

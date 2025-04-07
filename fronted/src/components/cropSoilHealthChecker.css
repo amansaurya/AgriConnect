@@ -1,0 +1,40 @@
+.check-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80%;
+    height: 54vh;
+    margin: 5px auto;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border: 2px dotted black;
+}
+
+.check-container h2{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.get-image-predict{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-predict{
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid green;
+    border-radius: 3px; 
+    background-color: bisque;
+}
+.prediction-result{
+    margin-top: 10px;
+}
+
+
+
+
+
+

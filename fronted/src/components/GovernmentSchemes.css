@@ -1,0 +1,35 @@
+/* GovernmentSchemes.css */
+
+.scheme-gov-heading{
+    text-align: center;
+    font-size: xx-large;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    margin: 5px;
+}
+
+.scheme-link{
+    text-decoration: none;
+    color: red;
+}

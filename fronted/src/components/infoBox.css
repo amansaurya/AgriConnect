@@ -1,0 +1,67 @@
+
+.empty-state-card {
+    max-width: 400px;
+    margin: 2rem auto;
+    background-color: #f5f5f5;
+    border: 1px dashed #ccc;
+}
+
+.loading {
+    text-align: center;
+    padding: 2rem;
+    color: #666;
+    font-size: 1.2rem;
+}
+
+.error {
+    text-align: center;
+    padding: 2rem;
+    color: #d32f2f;
+    font-size: 1.2rem;
+}
+
+
+.forecast-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.forecast-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.weather-card {
+    height: 100%;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.weather-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.weather-icon {
+    width: 64px;
+    height: 64px;
+    margin: 8px auto;
+}
+
+.condition {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .forecast-container {
+        padding: 10px;
+    }
+    
+    .weather-card {
+        margin-bottom: 10px;
+    }
+}
