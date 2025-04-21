@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
   origin: "https://agriconnect-fronted.onrender.com",
-  methods: ["GET", "POST"],
+  methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
 
