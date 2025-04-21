@@ -9,11 +9,11 @@ import "./searchBox.css";
 export default function SearchBox({ updateInfo }) {
     const [city, setCity] = useState("");
     const [error, setError] = useState(false);
-    const weather_api_url=import.meta.env.VITE_WEATHER_API_URL;
+    // const weather_api_url=import.meta.env.VITE_WEATHER_API_URL;
 
 const getWeatherInfo = async () => {
     try {
-        const response = await axios.get(`${weather_api_url}${city}`);
+        const response = await axios.get(`${import.meta.env.VITE_WEATHER_API_URL}${city}`);
         // console.log('API Response:', response.data); 
         return response.data; 
     } catch (error) {
