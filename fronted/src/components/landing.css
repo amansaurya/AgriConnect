@@ -341,6 +341,219 @@ width: 15%;
     height:30rem;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add these media queries and update existing ones */
+
+/* Responsive Header */
+@media (max-width: 768px) {
+    .header {
+        padding: 0px 15px;
+        flex-direction: column;
+    }
+
+    .logo img {
+        height: 6rem;
+    }
+
+    .logo p {
+        font-size: 24px;
+    }
+
+    .nav {
+        margin-top: 1rem;
+        padding: 5px 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav p {
+        font-size: 16px;
+    }
+}
+
+/* Responsive Short Notice */
+@media (max-width: 768px) {
+    .short_notice {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .temperature {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .price_show {
+        width: 100%;
+    }
+}
+
+/* Responsive Image */
+@media (max-width: 768px) {
+    .image {
+        height: 20rem;
+    }
+}
+
+/* Responsive Intro Container */
+@media (max-width: 768px) {
+    .intro-container {
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .leaders {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .leader img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .leader p {
+        font-size: 12px;
+    }
+
+    .intro-text {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .intro-text h2 {
+        font-size: 18px;
+    }
+
+    .intro-text p {
+        font-size: 14px;
+    }
+}
+
+/* Responsive Services and Cards */
+@media (max-width: 768px) {
+    .services {
+        font-size: 28px;
+    }
+
+    .container {
+        width: 95%;
+        padding: 5px;
+        gap: 10px;
+    }
+
+    .card {
+        width: 250px;
+        min-width: 200px;
+        padding: 15px;
+    }
+
+    .card h2 {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .card img {
+        height: 120px;
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+    .logo img {
+        height: 4rem;
+    }
+
+    .logo p {
+        font-size: 20px;
+    }
+
+    .nav p {
+        font-size: 14px;
+    }
+
+    .leaders {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .intro-container {
+        padding: 15px;
+    }
+
+    .app-coming {
+        height: 20rem;
+    }
+
+    .app-img {
+        height: 20rem;
+    }
+}
+
+/* Tablet Devices */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .logo img {
+        height: 7rem;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .card {
+        width: 280px;
+    }
+}
+
+/* Touch Device Optimization */
+@media (hover: none) {
+    .card:hover {
+        transform: none;
+    }
+
+    .nav p:hover {
+        color: yellow;
+        font-size: 20px;
+        text-shadow: none;
+    }
+}
+
+/* Scrollbar Styling for Container */
+.container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
   
   
   
